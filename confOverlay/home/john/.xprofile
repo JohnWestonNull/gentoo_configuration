@@ -1,0 +1,11 @@
+export PATH=.local/bin/:$PATH
+clash &
+fcitx &
+flameshot &
+xcompmgr -c &
+feh --bg-scale ~/.wallpaper.jpg &
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+wmname LG3D
+redshift -l 22.547:114.085 -t 4500:3500 &

@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+-1003,7 +1121,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1003,7 +1121,7 @@ killclient(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-1052,6 +1055,14	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^@@ -1052,6 +1055,14 @@ manage(Window w, XWindowAttributes *wa)$/;"	h	modifiedFile:a/dwm.c
+-1091,6 +1209,12	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1091,6 +1209,12 @@ maprequest(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-1215,6 +1339,16	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1215,6 +1339,16 @@ propertynotify(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-1265,6 +1399,20	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1265,6 +1399,20 @@ recttomon(int x, int y, int w, int h)$/;"	h	modifiedFile:a/dwm.c
+-1272,6 +1420,14	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1272,6 +1420,14 @@ resize(Client *c, int x, int y, int w, int h, int interact)$/;"	h	modifiedFile:a/dwm.c
+-1344,6 +1500,19	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1344,6 +1500,19 @@ resizemouse(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-141,6 +159,12	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -141,6 +159,12 @@ typedef struct {$/;"	h	modifiedFile:a/dwm.c
+-1433,26 +1602,36	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1433,26 +1602,36 @@ setclientstate(Client *c, long state)$/;"	h	modifiedFile:a/dwm.c
+-1466,7 +1645,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1466,7 +1645,7 @@ setfocus(Client *c)$/;"	h	modifiedFile:a/dwm.c
+-1555,6 +1734,10	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1555,6 +1734,10 @@ setup(void)$/;"	h	modifiedFile:a/dwm.c
+-1562,6 +1745,9	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1562,6 +1745,9 @@ setup(void)$/;"	h	modifiedFile:a/dwm.c
+-1570,6 +1756,8	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1570,6 +1756,8 @@ setup(void)$/;"	h	modifiedFile:a/dwm.c
+-1661,6 +1672,7	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^@@ -1661,6 +1672,7 @@ spawn(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-169,8 +193,10	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -169,8 +193,10 @@ static void focus(Client *c);$/;"	h	modifiedFile:a/dwm.c
+-1701,7 +1889,18	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1701,7 +1889,18 @@ togglebar(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-1748,6 +1760,28	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^@@ -1748,6 +1760,28 @@ togglefloating(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-1796,11 +1995,18	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1796,11 +1995,18 @@ unmapnotify(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-1811,10 +2017,15	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1811,10 +2017,15 @@ updatebars(void)$/;"	h	modifiedFile:a/dwm.c
+-188,13 +214,16	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -188,13 +214,16 @@ static void pop(Client *);$/;"	h	modifiedFile:a/dwm.c
+-1990,6 +2201,121	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -1990,6 +2201,121 @@ updatestatus(void)$/;"	h	modifiedFile:a/dwm.c
+-2057,6 +2383,16	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -2057,6 +2383,16 @@ wintoclient(Window w)$/;"	h	modifiedFile:a/dwm.c
+-206,6 +235,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -206,6 +235,7 @@ static void seturgent(Client *c, int urg);$/;"	h	modifiedFile:a/dwm.c
+-2110,6 +2446,22	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -2110,6 +2446,22 @@ xerrorstart(Display *dpy, XErrorEvent *ee)$/;"	h	modifiedFile:a/dwm.c
+-213,6 +213,7	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^@@ -213,6 +213,7 @@ static void tagmon(const Arg *arg);$/;"	h	modifiedFile:a/dwm.c
+-223,18 +253,23	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -223,18 +253,23 @@ static int updategeom(void);$/;"	h	modifiedFile:a/dwm.c
+-257,9 +292,10	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -257,9 +292,10 @@ static void (*handler[LASTEvent]) (XEvent *) = {$/;"	h	modifiedFile:a/dwm.c
+-273,6 +274,8	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^@@ -273,6 +274,8 @@ static Window root, wmcheckwin;$/;"	h	modifiedFile:a/dwm.c
+-3,6 +3,10	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -3,6 +3,10 @@$/;"	h	modifiedFile:a/config.def.h
+-439,7 +475,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -439,7 +475,7 @@ buttonpress(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-482,6 +518,11	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -482,6 +518,11 @@ cleanup(void)$/;"	h	modifiedFile:a/dwm.c
+-512,9 +553,57	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -512,9 +553,57 @@ cleanupmon(Monitor *mon)$/;"	h	modifiedFile:a/dwm.c
+-567,7 +656,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -567,7 +656,7 @@ configurenotify(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-57,12 +57,30	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -57,12 +57,30 @@$/;"	h	modifiedFile:a/dwm.c
+-58,11 +58,14	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^@@ -58,11 +58,14 @@ static const Layout layouts[] = {$/;"	h	modifiedFile:a/config.def.h
+-652,6 +741,11	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -652,6 +741,11 @@ destroynotify(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-695,19 +789,23	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -695,19 +789,23 @@ dirtomon(int dir)$/;"	h	modifiedFile:a/dwm.c
+-728,7 +826,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -728,7 +826,7 @@ drawbar(Monitor *m)$/;"	h	modifiedFile:a/dwm.c
+-739,7 +837,7	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -739,7 +837,7 @@ drawbar(Monitor *m)$/;"	h	modifiedFile:a/dwm.c
+-776,8 +874,11	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -776,8 +874,11 @@ expose(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-862,10 +963,17	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -862,10 +963,17 @@ getatomprop(Client *c, Atom prop)$/;"	h	modifiedFile:a/dwm.c
+-899,6 +1007,16	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^@@ -899,6 +1007,16 @@ getstate(Window w)$/;"	h	modifiedFile:a/dwm.c
+<C-F>f	.vimrc	/^nmap <C-F>f <Plug>CtrlSFCwordPath$/;"	m
+<C-F>f	.vimrc	/^nmap <C-F>f <Plug>CtrlSFPrompt$/;"	m
+<C-F>f	.vimrc	/^xmap <C-F>f <Plug>CtrlSFPromptVwordPath$/;"	m
+<C-F>f	confOverlay/home/john/.vimrc	/^nmap <C-F>f <Plug>CtrlSFCwordPath$/;"	m
+<C-F>f	confOverlay/home/john/.vimrc	/^nmap <C-F>f <Plug>CtrlSFPrompt$/;"	m
+<C-F>f	confOverlay/home/john/.vimrc	/^xmap <C-F>f <Plug>CtrlSFPromptVwordPath$/;"	m
+<C-F>o	.vimrc	/^nnoremap <C-F>o :CtrlSFOpen<CR>$/;"	m
+<C-F>o	confOverlay/home/john/.vimrc	/^nnoremap <C-F>o :CtrlSFOpen<CR>$/;"	m
+<C-F>t	.vimrc	/^inoremap <C-F>t :CtrlSFToggle<CR>$/;"	m
+<C-F>t	.vimrc	/^nnoremap <C-F>t :CtrlSFToggle<CR>$/;"	m
+<C-F>t	confOverlay/home/john/.vimrc	/^inoremap <C-F>t :CtrlSFToggle<CR>$/;"	m
+<C-F>t	confOverlay/home/john/.vimrc	/^nnoremap <C-F>t :CtrlSFToggle<CR>$/;"	m
+<C-s>	confOverlay/home/john/.vimrc	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<C-s>	confOverlay/home/john/.vimrc	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<F2>	.vimrc	/^nmap <F2> :NERDTreeToggle<CR>$/;"	m
+<F2>	confOverlay/home/john/.vimrc	/^nmap <F2> :NERDTreeToggle<CR>$/;"	m
+<F3>	.vimrc	/^nmap <F3> :TagbarToggle<CR>$/;"	m
+<F3>	confOverlay/home/john/.vimrc	/^nmap <F3> :TagbarToggle<CR>$/;"	m
+<S-TAB>	confOverlay/home/john/.vimrc	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<TAB>	confOverlay/home/john/.vimrc	/^inoremap <silent><expr> <TAB>$/;"	m
+<c-@>	confOverlay/home/john/.vimrc	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-space>	confOverlay/home/john/.vimrc	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<cr>	confOverlay/home/john/.vimrc	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<leader>a	confOverlay/home/john/.vimrc	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>a	confOverlay/home/john/.vimrc	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>ac	confOverlay/home/john/.vimrc	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>cl	confOverlay/home/john/.vimrc	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
+<leader>f	confOverlay/home/john/.vimrc	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>f	confOverlay/home/john/.vimrc	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>qf	confOverlay/home/john/.vimrc	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+<leader>rn	confOverlay/home/john/.vimrc	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<leader>w	confOverlay/home/john/.vimrc	/^imap <leader>w :HopWord<CR>$/;"	m
+<leader>w	confOverlay/home/john/.vimrc	/^nmap <leader>w :HopWord<CR>$/;"	m
+<space>a	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
+<space>c	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m
+<space>e	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m
+<space>j	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m
+<space>k	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m
+<space>o	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m
+<space>p	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m
+<space>s	confOverlay/home/john/.vimrc	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
+CheckBackspace	confOverlay/home/john/.vimrc	/^function! CheckBackspace() abort$/;"	f
+Fold	confOverlay/home/john/.vimrc	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
+Format	confOverlay/home/john/.vimrc	/^command! -nargs=0 Format :call CocActionAsync('format')$/;"	c
+K	confOverlay/home/john/.vimrc	/^nnoremap <silent> K :call ShowDocumentation()<CR>$/;"	m
+NERDTreeMinimalMenu	.vimrc	/^let NERDTreeMinimalMenu = 1     $/;"	v
+NERDTreeMinimalMenu	confOverlay/home/john/.vimrc	/^let NERDTreeMinimalMenu = 1     $/;"	v
+NERDTreeShowBookmarks	.vimrc	/^let NERDTreeShowBookmarks = 1$/;"	v
+NERDTreeShowBookmarks	confOverlay/home/john/.vimrc	/^let NERDTreeShowBookmarks = 1$/;"	v
+NERDTreeShowHidden	.vimrc	/^let NERDTreeShowHidden = 1      $/;"	v
+NERDTreeShowHidden	confOverlay/home/john/.vimrc	/^let NERDTreeShowHidden = 1      $/;"	v
+NERDTreeShowLineNumbers	.vimrc	/^let NERDTreeShowLineNumbers = 0 $/;"	v
+NERDTreeShowLineNumbers	confOverlay/home/john/.vimrc	/^let NERDTreeShowLineNumbers = 0 $/;"	v
+NERDTreeWinPos	.vimrc	/^let NERDTreeWinPos = "left"     $/;"	v
+NERDTreeWinPos	confOverlay/home/john/.vimrc	/^let NERDTreeWinPos = "left"     $/;"	v
+NERDTreeWinSize	.vimrc	/^let NERDTreeWinSize = 31        $/;"	v
+NERDTreeWinSize	confOverlay/home/john/.vimrc	/^let NERDTreeWinSize = 31        $/;"	v
+OR	confOverlay/home/john/.vimrc	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
+ShowDocumentation	confOverlay/home/john/.vimrc	/^function! ShowDocumentation()$/;"	f
+[g	confOverlay/home/john/.vimrc	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+]g	confOverlay/home/john/.vimrc	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+a/config.def.h	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^--- a\/config.def.h	2019-06-06 21:23:27.006661784 +0200$/;"	m
+a/dwm.c	confOverlay/etc/portage/patches/x11-wm/dwm/01-dwm-systray-6.2.diff	/^--- a\/dwm.c$/;"	m
+a/dwm.c	confOverlay/etc/portage/patches/x11-wm/dwm/dwm-scratchpad-6.2.diff	/^--- a\/dwm.c	2019-06-06 21:23:27.023328450 +0200$/;"	m
+ac	confOverlay/home/john/.vimrc	/^omap ac <Plug>(coc-classobj-a)$/;"	m
+ac	confOverlay/home/john/.vimrc	/^xmap ac <Plug>(coc-classobj-a)$/;"	m
+af	confOverlay/home/john/.vimrc	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+af	confOverlay/home/john/.vimrc	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
+data_dir	.vimrc	/^let data_dir = has('nvim') ? stdpath('data') . '\/site' : '~\/.vim'$/;"	v
+data_dir	confOverlay/home/john/.vimrc	/^let data_dir = has('nvim') ? stdpath('data') . '\/site' : '~\/.vim'$/;"	v
+g:AutoPairsShortcutFastWrap	.vimrc	/^let g:AutoPairsShortcutFastWrap = '<A-e>'$/;"	v
+g:AutoPairsShortcutFastWrap	confOverlay/home/john/.vimrc	/^let g:AutoPairsShortcutFastWrap = '<A-e>'$/;"	v
+g:AutoPairsShortcutToggle	.vimrc	/^let g:AutoPairsShortcutToggle = '<A-p>'$/;"	v
+g:AutoPairsShortcutToggle	confOverlay/home/john/.vimrc	/^let g:AutoPairsShortcutToggle = '<A-p>'$/;"	v
+g:ctrlsf_auto_close	.vimrc	/^let g:ctrlsf_auto_close = { "normal":0, "compact":0  }$/;"	v
+g:ctrlsf_auto_close	confOverlay/home/john/.vimrc	/^let g:ctrlsf_auto_close = { "normal":0, "compact":0  }$/;"	v
+g:ctrlsf_auto_focus	.vimrc	/^let g:ctrlsf_auto_focus = {"at":"start"}$/;"	v
+g:ctrlsf_auto_focus	confOverlay/home/john/.vimrc	/^let g:ctrlsf_auto_focus = {"at":"start"}$/;"	v
+g:ctrlsf_backend	.vimrc	/^let g:ctrlsf_backend = 'ack'$/;"	v
+g:ctrlsf_backend	confOverlay/home/john/.vimrc	/^let g:ctrlsf_backend = 'ack'$/;"	v
+g:ctrlsf_case_sensitive	.vimrc	/^let g:ctrlsf_case_sensitive = 'smart'$/;"	v
+g:ctrlsf_case_sensitive	confOverlay/home/john/.vimrc	/^let g:ctrlsf_case_sensitive = 'smart'$/;"	v
+g:ctrlsf_default_root	.vimrc	/^let g:ctrlsf_default_root = 'cwd'$/;"	v
+g:ctrlsf_default_root	confOverlay/home/john/.vimrc	/^let g:ctrlsf_default_root = 'cwd'$/;"	v
+g:ctrlsf_default_view	.vimrc	/^let g:ctrlsf_default_view = 'compact'$/;"	v
+g:ctrlsf_default_view	confOverlay/home/john/.vimrc	/^let g:ctrlsf_default_view = 'compact'$/;"	v
+g:solarized_termcolors	.vimrc	/^let g:solarized_termcolors=16 $/;"	v
+g:solarized_termcolors	confOverlay/home/john/.vimrc	/^let g:solarized_termcolors=16 $/;"	v
+g:suda_smart_edit	confOverlay/home/john/.vimrc	/^let g:suda_smart_edit = 1$/;"	v
+g:tagbar_autofocus	.vimrc	/^let g:tagbar_autofocus = 1$/;"	v
+g:tagbar_autofocus	confOverlay/home/john/.vimrc	/^let g:tagbar_autofocus = 1$/;"	v
+g:tagbar_autoshowtag	.vimrc	/^let g:tagbar_autoshowtag = 1$/;"	v
+g:tagbar_autoshowtag	confOverlay/home/john/.vimrc	/^let g:tagbar_autoshowtag = 1$/;"	v
+g:tagbar_position	.vimrc	/^let g:tagbar_position = 'botright vertical'$/;"	v
+g:tagbar_position	confOverlay/home/john/.vimrc	/^let g:tagbar_position = 'botright vertical'$/;"	v
+g:terminal_height	.vimrc	/^let g:terminal_height=50$/;"	v
+g:terminal_height	confOverlay/home/john/.vimrc	/^let g:terminal_height=50$/;"	v
+g:terminal_key	.vimrc	/^let g:terminal_key='<C-t>'$/;"	v
+g:terminal_key	confOverlay/home/john/.vimrc	/^let g:terminal_key='<C-t>'$/;"	v
+g:terminal_shell	.vimrc	/^let g:terminal_shell='\/bin\/bash'$/;"	v
+g:terminal_shell	confOverlay/home/john/.vimrc	/^let g:terminal_shell='\/bin\/bash'$/;"	v
+g:vim_markdown_folding_disabled	confOverlay/home/john/.vimrc	/^let g:vim_markdown_folding_disabled = 1$/;"	v
+gd	confOverlay/home/john/.vimrc	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gentoo_configuration	README.md	/^# gentoo_configuration$/;"	c
+gi	confOverlay/home/john/.vimrc	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	confOverlay/home/john/.vimrc	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	confOverlay/home/john/.vimrc	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+ic	confOverlay/home/john/.vimrc	/^omap ic <Plug>(coc-classobj-i)$/;"	m
+ic	confOverlay/home/john/.vimrc	/^xmap ic <Plug>(coc-classobj-i)$/;"	m
+if	confOverlay/home/john/.vimrc	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+if	confOverlay/home/john/.vimrc	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
+mapleader	confOverlay/home/john/.vimrc	/^let mapleader = ","$/;"	v
+mygroup	confOverlay/home/john/.vimrc	/^augroup mygroup$/;"	a
